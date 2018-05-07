@@ -10,7 +10,7 @@ if ignore_dotenv.nil? || ignore_dotenv.empty? || ignore_dotenv == '0'
   require 'dotenv/rails'
 end
 
-module Testhackton
+module FunTestingFour
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
