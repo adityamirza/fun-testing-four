@@ -39,7 +39,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'dotenv-rails'
 gem 'mysql2'
-gem 'bcrypt'
+# encrypt password
+gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
 
 group :development, :test do
