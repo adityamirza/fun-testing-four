@@ -21,5 +21,6 @@ Rails.application.routes.draw do
     resources :report_steps, except: [:destroy]
     resources :steps, only: [:create]
     resources :scenarios
+    get '/report/features', to: 'report_features#index'
   end
 end
